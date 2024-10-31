@@ -1,1 +1,174 @@
+.citizenshipRightSidePart div{
+    display: inline;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+
+.citizenshipRightSidePart .rightPartctznRP{
+    
+    float: left;
+}
+
+.ifHolderOfDualCitizenship{
+    padding-left: 5%;
+    /* border-bottom: 1px solid red; */
+    
+}
+
+.ifHolderOfDualCitizenship div{
+    padding: 0;
+    margin: 0;
+    font-size: 8.5px;
+   
+}
+
+.plsIndicateCountryDiv div{
+    /* margin-left: 15%; */
+    float: right;
+    width: 90%;
+    
+}
+
+#plsIndicateCountry{
+    width: 40%;
+    border: none;
+    font-size: 5.5;
+}
+
+.plsIndicateDetails{
+    border-top: none;
+}
+
+.plsIndicateDetails textarea{
+    
+    border: none;
+    outline: none;
+
+  
+}
+
+.sexCheckboxTd {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  
+  .sexCheckboxDiv {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+
+  .sexCheckboxDiv label{
+    margin: auto 0;
+  }
+  
+  .civilStatusCheckboxDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; /* Set width to 100% to fit within the table cell */
+    margin: 0 auto;
+}
+
+.civilCheckboxDiv {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 50%; /* Adjust to fit two columns */
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+}
+
+/* For smaller screens, show checkboxes in a single column */
+@media (max-width: 320px) {
+    .civilCheckboxDiv {
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
+
+
+.AddressDesignCont{
+    width: 100%;
+    height: 100%;
+}
+
+.AddressDesignCont div{
+    margin: 0;
+    width: 100%;
+    height: 50%;
+}
+
+
+.address_UpPart div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.address_UpPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .addressDesignTextLeftUp input,
+  .addressDesignTextRightUP input{
+    text-align: center; 
+    font-size: 10px;
+  }
+  
+  
+
+/* ========================= */
+.address_LowPart{
+    border-top: 1px solid gray;
+   
+}
+
+.address_LowPart div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 8px;
+}
+
+.address_LowPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .addressDesignTextLeft,
+  .addressDesignTextRight {
+    text-align: center; /* Center text */
+    font-style: italic;
+  }
+  
+  .textCenter{
+    text-align: center;
+  }
+
+  /* .nameExtensionFontResize{
+     font-size: 5px;
+  } */
+
+  .nameExtentionBox{
+     display: inline;
+     width: 30%;
+  }
+
+  .nameExtentionBox {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center the content */
+    /* margin-bottom: 10px; Optional margin for spacing between boxes */
+}
+
 

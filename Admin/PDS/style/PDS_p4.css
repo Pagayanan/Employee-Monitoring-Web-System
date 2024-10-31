@@ -1,0 +1,21 @@
+.p4checkboxContainer div{
+    /* display: inline; */
+    /* background-color: red; */
+    width: 20%;
+}
+
+.p4checkboxContainer{
+    /* background-color: yellowgreen; */
+    display: flex;
+
+}
+
+.bawasLeft{
+
+}
+
+.bawasLeftUsogRight{
+    width: 75%;
+    float: right;
+    border-bottom: 1px solid black;
+}
