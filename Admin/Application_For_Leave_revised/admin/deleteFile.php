@@ -38,4 +38,3 @@ if (isset($_GET['file'])) {
     echo "Filename not provided.";
 }
 ?>
-
